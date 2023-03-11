@@ -36,7 +36,7 @@ yarn
 ## GET /users
 - This route should receive a user_id property containing the user's id in the request header, and return a list of all registered users. The id should be used to validate if the user requesting the list is an admin. The list should only be returned if the user is an admin.
 
-# ⚙ Test Solution
+# Test Solution ⚙
 
 ```bash
 yarn test
