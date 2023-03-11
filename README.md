@@ -24,16 +24,16 @@ yarn
 
 # Application Routes
 
-## POST /users
+### POST /users
 - This route should receive name and email within the request body in order to register a user.
 
-## PATCH /users/:user_id/admin
+### PATCH /users/:user_id/admin
 - This route should receive the id of a user in the route parameters and transform this user into an admin.
 
-## GET /users/:user_id
+### GET /users/:user_id
 - This route should receive the id of a user in the route parameters and return the user's information in the response body.
 
-## GET /users
+### GET /users
 - This route should receive a user_id property containing the user's id in the request header, and return a list of all registered users. The id should be used to validate if the user requesting the list is an admin. The list should only be returned if the user is an admin.
 
 # Test Solution ⚙
